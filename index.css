@@ -1,0 +1,70 @@
+body
+  {
+  color:black;
+  border: 1px solid black;
+  background-color:white;
+  font-size:100%;
+  font-family:sans-serif;
+  background-image: url("soft.jpg");
+  overflow:auto;
+  }
+
+  div.left{
+    width:16%;
+    height:200%;
+    float:left;
+    padding-left:5px;
+    /*background-color:#4A96AD;*/
+  }
+
+
+  div.right{
+  /*  width=1%;*/
+    height:100%;
+    float:left;
+    padding-left:5px;
+    /*background-color:#C1E1A6;*/
+  }
+
+
+  div.inner{
+    overflow:auto;
+    width:82%;
+    height:100%;
+    padding-left:10px;
+  /*  background-color:#C1E1A6;*/
+}
+#last
+{
+width:55%;
+height:15%;
+float:left;
+    background-color:#383838;
+    color: white;
+    margin-left: 250px;
+ }
+
+a:link {
+    color: blue;
+}
+
+/* visited link */
+a:visited {
+    color: green;
+}
+
+/* mouse over link */
+a:hover {
+    color: hotpink;
+}
+
+/* selected link */
+a:active {
+    color: red;
+}
+.SpclWords{
+  color: red;
+  font-weight: bold;
+}
+
+tr:nth-child(even){background-color: #AAAAFF}
